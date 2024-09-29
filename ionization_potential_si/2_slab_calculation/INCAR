@@ -1,31 +1,11 @@
-ISTART = 0
-#ISYM = -1
-ISPIN = 2 
+System = fcc Si
 
-LVHAR = .TRUE.
+ENCUT = 400
+LCHARG = .TRUE. 
+ISMEAR = -5      ! tetrahedron method
+LORBIT = 11
 
-ENCUT = 600
-ALGO = Normal  
-PREC = Normal
-ISMEAR = 0
-SIGMA = 0.05
-LREAL = Auto
-EDIFF = 1E-6
-NELM = 100
+LVHAR = .TRUE. 
 
-AMIX = 0.2
-AMIX_MAG = 0.8
-BMIX = 0.0001
-BMIX_MAG = 0.0001
-
-EDIFFG = -5E-3
-IBRION = 1 
-NSW    = 100
-ISIF = 2
-
-#LHFCALC = .TRUE. 
-#HFSCREEN = 0.2
-#AEXX = 0.25
-#PRECFOCK = Normal
-
-NCORE = 9
+NCORE = 12
+KPAR = 3
