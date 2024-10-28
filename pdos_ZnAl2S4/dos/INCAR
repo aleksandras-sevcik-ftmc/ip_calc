@@ -1,0 +1,33 @@
+SYSTEM = PDOS-Calculation-from-SCF
+ISTART = 0
+ICHARG = 11
+
+# Electronic Parameters
+ENCUT = 360.0
+ISMEAR = -5       # Tetrahedron method
+SIGMA = 0.05
+LREAL = .FALSE.
+PREC = Accurate
+EDIFF = 1E-07
+NELM = 100
+ALGO = Normal
+SYMPREC = 1E-8
+
+# Parallelization
+NCORE = 9
+
+# Magnetic Properties
+ISPIN = 1
+#MAGMOM = 66*0.6 4*0.6 1*5.0
+
+# DOS Settings
+LORBIT = 11
+EMIN = -10
+EMAX = 10
+NEDOS = 5000
+
+# I/O Settings
+LWAVE = .TRUE.
+LCHARG = .TRUE.
+LVTOT  = .TRUE.
+ADDGRID= .TRUE.
