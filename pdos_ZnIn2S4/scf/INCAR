@@ -9,8 +9,14 @@ SIGMA = 0.05
 LREAL = .FALSE.
 PREC = Accurate
 EDIFF = 1E-07
+EDIFFG = -0.02
 NELM = 100
 ALGO = Normal
+IBRION = -1
+ISYM = 0
+LMAXMIX = 4                           # LMAXMIX to 4 for d-elements and to 6 for f-elements
+IDIPOL = 3                            # IDIPOL switches on monopole/dipole and quadrupole corrections to the total energy
+NSW = 0
 
 # Parallelization
 NCORE = 9

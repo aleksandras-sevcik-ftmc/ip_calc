@@ -11,7 +11,7 @@ PREC = Accurate
 EDIFF = 1E-07
 NELM = 100
 ALGO = Normal
-SYMPREC = 1E-8
+IBRION=-1
 
 # Parallelization
 NCORE = 9
