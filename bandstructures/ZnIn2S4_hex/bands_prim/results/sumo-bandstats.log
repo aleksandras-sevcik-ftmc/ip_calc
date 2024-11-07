@@ -1,0 +1,31 @@
+E:\PYTHON\Vapsva\venv\Scripts\sumo-bandstats
+Indirect band gap: 0.678 eV
+Direct band gap: 1.129 eV
+  k-point: [0.50, 0.00, -0.00]
+  k-point indices: 59, 60
+  Band indices: 28, 29
+
+Valence band maximum:
+  Energy: 3.270 eV
+  k-point: [0.32, -0.32, 0.00]
+  k-point location: between GAMMA-S_0
+  k-point indices: 98
+  k-point degeneracy: 6
+  Band indices: 28
+
+Conduction band minimum:
+  Energy: 3.948 eV
+  k-point: [0.50, 0.50, 0.50]
+  k-point location: T
+  k-point indices: 19, 20
+  k-point degeneracy: 1
+  Band indices: 29
+
+Using parabolic fitting of the band edges
+
+Hole effective masses:
+  m_h: -0.984 | band 28 | [0.32, -0.32, 0.00] -> [0.00, 0.00, 0.00] (GAMMA)
+
+Electron effective masses:
+  m_e: 0.238 | band 29 | [0.50, 0.50, 0.50] (T) -> [0.00, 0.00, 0.00] (GAMMA)
+  m_e: 0.327 | band 29 | [0.50, 0.50, 0.50] (T) -> [0.83, 0.17, 0.50] (H_2)
