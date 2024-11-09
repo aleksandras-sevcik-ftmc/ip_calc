@@ -1,0 +1,32 @@
+SYSTEM = INCAR-For-BAND
+ISTART = 0
+ICHARG = 11
+
+# Electronic Parameters
+ENCUT = 500.0
+ISMEAR = 0
+SIGMA = 0.05
+LREAL = .FALSE.
+PREC = Accurate
+EDIFF = 1E-07
+NELM = 100
+ALGO = Normal
+LASPH = .TRUE
+
+# Parallelization
+NCORE = 9
+
+# Magnetic Properties
+ISPIN = 1
+#MAGMOM = 66*0.6 4*0.6 1*5.0
+
+# BAND Settings
+LORBIT = 11
+NEDOS = 100
+LMAXMIX = 4       # Required for d-elements
+ISYM = 0          # Recommended for non-standard systems
+IBRION = -1       # Not strictly needed but good practice
+
+# I/O Settings
+LWAVE = .FALSE.
+LCHARG = .TRUE.
