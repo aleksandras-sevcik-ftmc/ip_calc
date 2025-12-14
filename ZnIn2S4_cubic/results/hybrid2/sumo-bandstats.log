@@ -1,0 +1,33 @@
+/home/alex/.local/bin/sumo-bandstats
+Indirect band gap: 2.405 eV
+Direct band gap: 2.525 eV
+  k-point: [0.00, 0.00, 0.00]
+  k-point indices: 0, 44, 45
+  Band indices: 60, 63
+
+Valence band maximum:
+  Energy: 3.532 eV
+  k-point: [0.28, 0.28, 0.55]
+  k-point location: between K-\Gamma
+  k-point indices: 30
+  k-point degeneracy: 12
+  Band indices: 62
+
+Conduction band minimum:
+  Energy: 5.937 eV
+  k-point: [0.00, 0.00, 0.00]
+  k-point location: \Gamma
+  k-point indices: 0, 44, 45
+  k-point degeneracy: 1
+  Band indices: 63
+
+Using parabolic fitting of the band edges
+
+Hole effective masses:
+  m_h: -2.494 | band 62 | [0.28, 0.28, 0.55] -> [0.00, 0.00, 0.00] (\Gamma)
+  m_h: -2.346 | band 62 | [0.28, 0.28, 0.55] -> [0.38, 0.38, 0.75] (K)
+
+Electron effective masses:
+  m_e: 0.163 | band 63 | [0.00, 0.00, 0.00] (\Gamma) -> [0.50, 0.00, 0.50] (X)
+  m_e: 0.171 | band 63 | [0.00, 0.00, 0.00] (\Gamma) -> [0.38, 0.38, 0.75] (K)
+  m_e: 0.174 | band 63 | [0.00, 0.00, 0.00] (\Gamma) -> [0.50, 0.50, 0.50] (L)

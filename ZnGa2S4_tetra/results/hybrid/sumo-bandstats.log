@@ -1,0 +1,39 @@
+/home/alex/.local/bin/sumo-bandstats
+Direct band gap: 3.578 eV
+  k-point: [0.00, 0.00, 0.00]
+  k-point indices: 0, 56, 57, 99
+  Band indices: 30, 32
+
+Valence band maximum:
+  Energy: 2.020 eV
+  k-point: [0.00, 0.00, 0.00]
+  k-point location: \Gamma
+  k-point indices: 0, 56, 57, 99
+  k-point degeneracy: 1
+  Band indices: 30, 31
+
+Conduction band minimum:
+  Energy: 5.598 eV
+  k-point: [0.00, 0.00, 0.00]
+  k-point location: \Gamma
+  k-point indices: 0, 56, 57, 99
+  k-point degeneracy: 1
+  Band indices: 32
+
+Using parabolic fitting of the band edges
+
+Hole effective masses:
+  m_h: -0.735 | band 30 | [0.00, 0.00, 0.00] (\Gamma) -> [0.00, 0.00, 0.50] (X)
+  m_h: -0.870 | band 30 | [0.00, 0.00, 0.00] (\Gamma) -> [0.00, 0.50, 0.00] (N)
+  m_h: -0.814 | band 30 | [0.00, 0.00, 0.00] (\Gamma) -> [0.50, 0.50, -0.50] (M)
+  m_h: -0.672 | band 30 | [0.00, 0.00, 0.00] (\Gamma) -> [-0.31, 0.31, 0.31] (S_0)
+  m_h: -5.862 | band 31 | [0.00, 0.00, 0.00] (\Gamma) -> [0.00, 0.00, 0.50] (X)
+  m_h: -2.069 | band 31 | [0.00, 0.00, 0.00] (\Gamma) -> [0.00, 0.50, 0.00] (N)
+  m_h: -0.814 | band 31 | [0.00, 0.00, 0.00] (\Gamma) -> [0.50, 0.50, -0.50] (M)
+  m_h: -1.073 | band 31 | [0.00, 0.00, 0.00] (\Gamma) -> [-0.31, 0.31, 0.31] (S_0)
+
+Electron effective masses:
+  m_e: 0.266 | band 32 | [0.00, 0.00, 0.00] (\Gamma) -> [0.00, 0.00, 0.50] (X)
+  m_e: 0.263 | band 32 | [0.00, 0.00, 0.00] (\Gamma) -> [0.00, 0.50, 0.00] (N)
+  m_e: 0.300 | band 32 | [0.00, 0.00, 0.00] (\Gamma) -> [0.50, 0.50, -0.50] (M)
+  m_e: 0.249 | band 32 | [0.00, 0.00, 0.00] (\Gamma) -> [-0.31, 0.31, 0.31] (S_0)
